@@ -17,6 +17,7 @@ namespace ClassLibrary1
         public void Initialize(IModuleRegistrar registrar)
         {
             registrar.RegisterType<Interface1, Class1>();
+            registrar.RegisterType<Interface2, Class2>();
         }
     }
 }
