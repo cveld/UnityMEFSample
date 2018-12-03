@@ -4,7 +4,7 @@ using Unity.Lifetime;
 using Unity.Registration;
 namespace Common
 {
-     internal class ModuleRegistrar : IModuleRegistrar
+     public class ModuleRegistrar : IModuleRegistrar
     {
         private readonly IUnityContainer _container;
 

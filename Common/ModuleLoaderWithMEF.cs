@@ -10,7 +10,7 @@ namespace Common
 {
 
 
-    public class ModuleLoader
+    public class ModuleLoaderWithMEF
     {
         public static void LoadContainer(IUnityContainer container, string path, string pattern)
         {
